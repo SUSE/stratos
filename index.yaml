@@ -3,6 +3,27 @@ entries:
   console:
   - apiVersion: v1
     appVersion: 2.1.1
+    created: "2021-01-05T14:41:45.351330575Z"
+    description: A Helm chart for deploying Stratos
+    digest: cab31111b45ab8728346e5e75828076205021fc9fc3a437edd757e88661bf537
+    home: https://stratos.app
+    icon: https://raw.githubusercontent.com/SUSE/stratos/master/deploy/kubernetes/custom/icon.png
+    keywords:
+    - Stratos
+    - Cloud Foundry
+    - Kubernetes
+    - Helm
+    maintainers:
+    - email: stratos-maintainers@suse.de
+      name: Stratos Maintainers
+    name: console
+    sources:
+    - https://github.com/SUSE/stratos
+    urls:
+    - https://github.com/SUSE/stratos/releases/download/4.4.0-rc.3/console-helm-chart-4.4.0-rc.3-defcc460f.tgz
+    version: 4.4.0-rc.3
+  - apiVersion: v1
+    appVersion: 2.1.1
     created: "2020-12-23T11:11:20.472809317Z"
     description: A Helm chart for deploying Stratos
     digest: 3ff6cdd9e0beab24498982823a1f97b4ea11215c1fdb64666a57a04e6df937c9
@@ -517,4 +538,4 @@ entries:
     urls:
     - https://github.com/SUSE/stratos/releases/download/3.0.0/console-helm-chart-3.0.0-8fbc06b06.tgz
     version: 3.0.0
-generated: "2020-12-23T11:11:20.469580007Z"
+generated: "2021-01-05T14:41:45.34913827Z"
